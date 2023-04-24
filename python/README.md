@@ -1,8 +1,11 @@
-![.](docs/images/ONT_logo.png "Oxford Nanopore Technologies")
+# Basel Pathology Modifications to MinKNOW API
+
+Modifications are being made to this API as of Apr. 2023 to integrate sequencing control in NanoDiP (https://github.com/neuropathbasel/nanodip).
+NanoDiP versions up to 42 are accompanied by a previously modified version of the API (https://github.com/neuropathbasel/minknow_api). From version 43 onward, the minknow_api-2 (https://github.com/neuropathbasel/minknow_api-2) will be used. The reason for this change is the incorporation of R10 pore workflows and the switch from ZLIB to VBZ for fast5 data compression.
 
 ******************
 
-# API Specifications for MinKNOW
+# ONT's ORIGINAL API Specifications for MinKNOW
 
 ### Overview
 
